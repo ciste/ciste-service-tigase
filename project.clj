@@ -7,7 +7,7 @@
                  [clj-tigase "0.1.0-SNAPSHOT"]]
   :profiles {:dev
              {:dependencies
-              [[log4j "1.2.16"]
+              [[log4j "1.2.17"]
                [midje "1.4.0"]]}}
   :plugins [[lein-midje "2.0.0-SNAPSHOT"]]
   :autodoc {:name "Ciste Service Tigase"
