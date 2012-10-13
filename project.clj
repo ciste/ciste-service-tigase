@@ -9,6 +9,7 @@
              {:dependencies
               [[log4j "1.2.17"]
                [midje "1.4.0"]]}}
-  :plugins [[lein-midje "2.0.0-SNAPSHOT"]]
+  :plugins [[codox "0.6.1"]
+            [lein-midje "2.0.0-SNAPSHOT"]]
   :autodoc {:name "Ciste Service Tigase"
             :copyright "2012 KRONK Ltd."})
