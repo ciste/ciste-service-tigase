@@ -13,4 +13,9 @@
   :plugins [[codox "0.8.10"]
             [lein-midje "3.1.3"]]
   :autodoc {:name "Ciste Service Tigase"
-            :copyright "2015 KRONK Ltd."})
+            :copyright "2015 KRONK Ltd."}
+  :repositories [["jiksnu-snapshots"
+                  {:url "http://artifactory.jiksnu.org/artifactory/libs-snapshot"}]
+                 ["jiksnu-releases"
+                  {:url "http://artifactory.jiksnu.org/artifactory/libs-release"
+                   :snapshots false}]])
